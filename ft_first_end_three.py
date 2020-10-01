@@ -1,7 +1,2 @@
 def ft_first_end_three(string):
-    print(string[0])
-    print(string[1])
-    print(string[2])
-    print(string[-3])
-    print(string[-2])
-    print(string[-1])
+    return string[0], string[1], string[2], string[-3], string[-2], string[-1] 
