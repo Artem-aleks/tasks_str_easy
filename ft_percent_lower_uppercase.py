@@ -10,4 +10,4 @@ def ft_percent_lower_uppercase(string):
             count_uppercase += 1
         elif char in LOWERCASE:
             count_lowercase += 1
-    return count_uppercase / count_lowercase * 100
+    return count_lowercase / count_uppercase * 100
