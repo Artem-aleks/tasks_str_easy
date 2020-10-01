@@ -16,6 +16,3 @@ def ft_max_char_on_end(string):
             length_seq = count
             count = 1
     return length_seq
-
-
-print(ft_max_char_on_end('111223333'))
