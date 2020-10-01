@@ -3,4 +3,4 @@ def ft_len(str):
     for i in str:
         count += 1
 
-    print(count)
+    return count
