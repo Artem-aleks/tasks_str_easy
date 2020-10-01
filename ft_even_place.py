@@ -7,7 +7,7 @@ def ft_len(string):
 
 
 def ft_even_place(string):
-    result_string = str()
+    result_string = ''
     for i in range(ft_len(string)):
         if i % 2 == 1:
             result_string += string[i]
