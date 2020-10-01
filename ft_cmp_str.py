@@ -7,9 +7,9 @@ def ft_len(str):
 
 def ft_cmp_str(str1, str2, num):
     result_string = ''
-    for i in range(num):
+    for i in range(num-1):
         result_string += str1[i]
     result_string += str2
-    for i in range(num, ft_len(str1)):
+    for i in range(num-1, ft_len(str1)):
         result_string += str1[i]
     return result_string
