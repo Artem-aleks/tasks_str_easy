@@ -12,6 +12,6 @@ def ft_slice_str(string, start, stop):
         for i in range(1, ft_len(string)):
             result_string += string[i]
         return result_string
-    for i in range(start, stop):
+    for i in range(start-1, stop):
         result_string += string[i]
     return result_string
